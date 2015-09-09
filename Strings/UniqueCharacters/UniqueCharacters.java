@@ -6,8 +6,10 @@ import java.util.Set;
 public class UniqueCharacters {
 
 	/**
-	 * Assuming charset is ascii Time complexity: O(n) Space complexity: O(1) n
-	 * is the number of chars in the string
+	 * Assuming charset is ascii 
+	 * Time complexity: O(n) 
+	 * Space complexity: O(1) 
+	 * n is the number of chars in the string
 	 */
 	public static boolean hasUniqueChars(String str) throws Exception {
 		if (str == null) {
@@ -26,8 +28,9 @@ public class UniqueCharacters {
 	}
 
 	/**
-	 * Time complexity: O(n) Space complexity: O(n) n is the number of chars in
-	 * the string
+	 * Time complexity: O(n) 
+	 * Space complexity: O(n) 
+	 * n is the number of chars in the string
 	 */
 	public boolean hasUniqueCharsWithSet(String str) throws Exception {
 		if (str == null) {
