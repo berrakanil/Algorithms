@@ -1,5 +1,4 @@
-
-		}ckage com.berrakanil.algorithms;
+package com.berrakanil.algorithms;
 
 import java.util.HashSet;
 import java.util.Set;
